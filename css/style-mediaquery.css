@@ -1,0 +1,342 @@
+/*-- Media Query --*/
+
+
+/*----------------------------------------------------------------------------------------  Mobile  --*/
+@media (min-width: 0px) and (max-width: 500px) {
+
+header {
+	background-attachment: scroll;
+}
+.header-content {
+	margin: 80px 0;
+}
+.header-content p {
+    font-size: 10px;
+}
+.header-content h1 {
+	font-size: 25px;
+    line-height: 20px;
+}
+.header-content button {
+	margin-top: 5px;
+	margin-left: 0px;
+	border: none;
+	font-size: 10px;
+	padding: 3px 10px;
+}
+
+.sec-two-content {
+    padding: 20px 0px;
+}
+.sec-two-content h1 {
+    margin: 10px 15px;
+    font-size: 20px;
+}
+.sec-two-content p {
+    font-size: 13px;
+    line-height: 21px;
+}
+
+.sec-three-content h1 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.sec-four-text {
+    margin-top: 20px;
+}
+.sec-four-text h1 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.sec-four-box {
+    margin-bottom: 15px;
+}
+.sec-four-box-image img {
+    height: 150px;
+}
+.sec-four-box-content {
+    padding: 10px;
+}
+.sec-four-box-content h4 {
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.sec-four-box-content p {
+    font-size: 12px;
+    line-height: 10px;
+}
+.sec-four-box-position {
+    width: 75px;
+    font-size: 9px;
+    padding: 4px 0px;
+}
+
+.sec-five {
+    padding-bottom: 15px;
+}
+.sec-five-text {
+    margin-top: 5px;
+}
+.sec-five-text h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.sec-five-box {
+    margin-bottom: 10px;
+    padding: 0 15px;
+}
+.sec-five-box img {
+    height: 170px;
+}
+
+.sec-six-content {
+    padding-top: 15px;
+    padding-left: 15px;
+}
+.sec-six-content p {
+    font-size: 13px;
+}
+.sec-six-content h1 {
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+.sec-six-btn {
+    padding-top: 0px;
+}
+.sec-six-btn button {
+	margin-top: 5px;
+	margin-left: 0px;
+	border: none;
+	font-size: 10px;
+	padding: 3px 10px;
+	margin-bottom: 15px;
+}
+
+.sec-seven-text {
+    margin-top: 20px;
+}
+.sec-seven-text h1 {
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.sec-seven-box p {
+    font-size: 9px;
+    left: 75px;
+}
+.sec-seven {
+    padding-bottom: 10px;
+}
+
+
+}
+
+/*----------------------------------------------------------------------------------------  Tablet  --*/
+@media (min-width: 501px) and (max-width: 767px) {
+
+
+header {
+	background-attachment: scroll;
+}
+.header-content {
+	margin: 100px 0;
+}
+.header-content p {
+    font-size: 12px;
+}
+.header-content h1 {
+	font-size: 27px;
+    line-height: 25px;
+}
+.header-content button {
+	margin-top: 15px;
+    margin-left: 5px;
+    font-size: 13px;
+    padding: 4px 12px;
+}
+
+.sec-two-content {
+    padding: 30px 0px;
+}
+.sec-two-content h1 {
+    margin: 15px 15px;
+    font-size: 23px;
+}
+.sec-two-content p {
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.sec-three-content h1 {
+    font-size: 25px;
+    margin: 20px 0;
+}
+
+.sec-four-text {
+    margin-top: 25px;
+}
+.sec-four-text h1 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.sec-four-box {
+    margin-bottom: 15px;
+}
+.sec-four-box-image img {
+    height: 200px;
+}
+.sec-four-box-content {
+    padding: 20px;
+}
+.sec-four-box-content h4 {
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+.sec-four-box-content p {
+    font-size: 15px;
+	line-height: 12px;
+}
+.sec-four-box-position {
+    width: 100px;
+	font-size: 11px;
+	padding: 6px 0px;
+}
+
+.sec-five {
+    padding-bottom: 15px;
+}
+.sec-five-text {
+    margin-top: 20px;
+}
+.sec-five-text h1 {
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+.sec-five-box {
+    margin-bottom: 15px;
+    padding: 0 50px;
+}
+.sec-five-box img {
+    height: 215px;
+}
+
+.sec-six-content {
+    padding-top: 25px;
+    padding-left: 15px;
+}
+.sec-six-content p {
+    font-size: 15px;
+}
+.sec-six-content h1 {
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+.sec-six-btn {
+    padding-top: 0px;
+}
+.sec-six-btn button {
+    margin-top: 15px;
+    margin-left: 5px;
+    font-size: 13px;
+    padding: 4px 12px;
+    margin-bottom: 25px;
+}
+
+.sec-seven-text {
+    margin-top: 20px;
+}
+.sec-seven-text h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.sec-seven-box p {
+    font-size: 10px;
+	left: 105px;
+}
+.sec-seven {
+    padding-bottom: 20px;
+}
+
+
+
+
+
+}
+
+/*----------------------------------------------------------------------------------------  Laptop  --*/
+@media (min-width: 768px) and (max-width: 1199px) {
+
+
+header {
+	background-attachment: fixed;
+}
+.header-content {
+	margin: 170px 0;
+}
+.header-content p {
+    font-size: 14px;
+}
+.header-content h1 {
+	font-size: 35px;
+    line-height: 55px;
+}
+
+
+.sec-two-content {
+    padding: 40px 0px;
+}
+
+.sec-two-content p {
+    font-size: 17px;
+    line-height: 28px;
+}
+
+.sec-four-box {
+    margin-bottom: 15px;
+}
+.sec-four-box-image img {
+    height: 200px;
+}
+.sec-four-box-content {
+    padding: 20px;
+}
+.sec-four-box-content h4 {
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+.sec-four-box-content p {
+    font-size: 15px;
+	line-height: 12px;
+}
+.sec-four-box-position {
+    width: 100px;
+	font-size: 11px;
+	padding: 6px 0px;
+}
+
+.sec-five-box img {
+    height: 175px;
+}
+
+.sec-seven-box p {
+    font-size: 11px;
+	left: 90px;
+}
+
+
+
+
+
+
+}
+
+/*----------------------------------------------------------------------------------------  Big Screens  --*/
+@media (min-width: 1200px) and {
+
+}
